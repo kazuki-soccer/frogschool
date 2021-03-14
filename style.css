@@ -1,0 +1,574 @@
+h1,h2,h3,ul,li {
+  margin: 0px;
+  padding: 0px;
+  font-weight: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, メイリオ, Helvetica, sans-serif;
+
+}
+
+
+.container:not(:root) {
+  width: 65%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  max-height: 100%;
+  height: 100%;
+}
+
+
+.top-wrapper {
+  height: 600px;
+  margin-bottom: 50px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.top-con {
+  text-align: center;
+  height: 100%;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background: url('男性がパソコンいじってる.jpg') no-repeat;
+  background-size: cover;
+  z-index: -3;
+}
+
+
+.top-nav {
+  padding-top: 40px;
+
+}
+
+.top-sec {
+  padding-top: 90px;
+}
+
+h1 {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, メイリオ, Helvetica, sans-serif;
+  font-size: 39px;
+  line-height: 66px;
+  font-weight: 400;
+}
+.top-sec h1{
+  margin-bottom: 35px;
+}
+
+.top-sec p {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+#next {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  margin-bottom: 45px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#frog {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #6FC173;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, メイリオ, Helvetica, sans-serif;
+  margin-right: 20px;
+
+}
+
+#podcast {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  border: solid 1px white;
+  border-radius: 7px;
+  padding: 10px 15px;
+
+}
+
+#apply {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  background-color: #6FC173 ;
+  padding: 12px 60px;
+  border-radius: 7px;
+}
+
+
+.course-wrapper {
+  text-align: center;
+  height: 650px;
+}
+
+.course-wrapper h1 {
+  margin-bottom: 35px;
+}
+
+#englishweb {
+  margin-bottom: 35px;
+}
+
+.course-col img {
+  border-radius: 6px;
+}
+.course-col p {
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  margin: 10px 0;
+}
+
+.vancouver-wrapper {
+  background-image: url(vancouver1.png);
+  background-size: cover;
+  height: 680px;
+  color: white;
+  margin-bottom: 70px;
+}
+
+.vancouver-wrapper h1 {
+  text-align: center;
+  padding: 70px 0 30px 0;
+}
+
+.vancouver-wrapper p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+
+.curriculum-wrapper {
+  margin-bottom: 100px;
+}
+
+
+table {
+  width: 100%;
+}
+
+
+.curriculum-wrapper h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.curriculum-wrapper h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.curriculum-wrapper p {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+}
+.curriculum p {
+  margin-bottom: 25px;
+}
+.curriculum-wrapper span {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.curriculum-wrapper a {
+color: #3b8a98;
+}
+
+.curriculum-col {
+  margin-bottom: 20px;
+}
+.curriculum-col p {
+  margin-bottom: 3px;
+}
+
+
+.curri-row {
+  margin-bottom: 30px;
+}
+
+
+.illust {
+  margin-right: 10px;
+  float: left;
+
+}
+.htmlcss {
+}
+
+.curriculum-table {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Meiryo, メイリオ, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+}
+
+table tr:nth-child(even){
+  background-color: #F8F7F2;
+}
+.curriculum-table td {
+  padding: 10px;
+  border: solid 1px #E5E5D1;
+}
+
+.day {
+  margin-bottom: 40px;
+
+}
+.week {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#twoweeks {
+  margin-bottom: 10px;
+}
+
+.englishclass {
+  margin-top: 40px;
+  }
+
+#englishp {
+  width: 95%;
+  margin: auto;
+}
+
+
+.new-wrapper {
+  text-align: center;
+  height: 320px;
+  color: white;
+  position: relative;
+  background-image: url(streetblue.gif);
+  background-size: cover;
+  margin-bottom: 65px;
+
+
+}
+
+
+
+.new-con h1 {
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+.new-con p {
+
+}
+
+
+.voice-wrapper {
+  margin-bottom: 80px;
+}
+
+.voice-wrapper h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.voice-img {
+ margin-bottom: 60px;
+ text-align: center;
+
+}
+
+.voice-p {
+  margin-bottom: 60px;
+
+  position: relative;
+  display: inline-block;
+  padding: 30px 25px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #F8F7F2;
+  border-radius: 5px;
+}
+
+.voice-p:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #F8F7F2;
+  ;
+}
+.voice-p p {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 27px;
+
+}
+
+.student {
+  width: 80%;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.teacher-wrapper {
+  text-align: center;
+  background-color: #F8F7F2;
+  padding-bottom: 50px;
+}
+.teacher-col p {
+  text-align: left;
+  line-height: 27px;
+}
+
+.teacher-img {
+  border-radius: 50%;
+}
+
+.teacher-wrapper h1 {
+  padding-top: 65px;
+  margin-bottom: 35px;
+}
+.teacher-row {
+  margin-top: 35px;
+}
+
+
+
+.step-wrapper {
+  margin-bottom: 90px;
+}
+.step-wrapper h1  {
+ text-align: center;
+ margin-bottom: 30px;
+ margin-top: 65px;
+}
+.row-col {
+  padding-right:20px;
+  margin-bottom: 40px;
+}
+.number {
+  float: left;
+  border-radius: 50%;
+  background-color: #5FB2C1;
+  color: white;
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 400;
+  width: 50px;
+  height: 50px;
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 90px;
+  margin-right: 15px;
+}
+
+.step-wrapper h2 {
+  margin: 0;
+}
+
+#small {
+  font-size:12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.back-wrapper {
+  text-align: center;
+  height: 320px;
+  color: white;
+  position: relative;
+  background-image: url(airplane.jpg);
+  background-size: cover;
+  margin-bottom: 65px;
+
+
+}
+
+.back-con h1 {
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+
+.global-wrapper {
+  padding-bottom: 80px;
+
+}
+
+.global-con h1 {
+  text-align: center;
+  line-height: 66px;
+  margin-bottom: 26px;
+}
+
+.global-con audio {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.global-con p {
+  margin-bottom: 30px;
+}
+
+.global-con a {
+}
+
+
+
+.price-wrapper {
+  background-color: #F8F7F2;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.price-wrapper h1 {
+  margin-bottom: 50px;
+}
+
+.price-col {
+  margin-bottom: 20px;
+}
+.price-wrapper table {
+  width: 90%;
+}
+.price-wrapper td {
+  border: 1px solid #E5E5D1;
+  padding: 13px 7px;
+}
+.green {
+  background-color: #6FC173;
+  color: white;
+}
+.white {
+  background-color: white;
+}
+
+#price {
+  padding: 15px 12px;
+  font-size: 40px;
+  line-height: 68px;
+}
+
+.yen, .dollar {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.fifteen {
+  margin:0 auto;
+}
+.ten {
+  margin-left: 22px;
+}
+
+.line {
+  background-image: linear-gradient(180deg, /*角度*/
+  transparent 49%,
+  #D7D6D1 49%, /*斜線の色*/
+  #D7D6D1 51%, /*斜線の色*/
+  transparent 51%, 
+  transparent); 
+  color: #D7D6D1;
+}
+
+.price-wrapper p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+
+.question-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.question-wrapper h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.question-wrapper h2 {
+  margin-bottom: 2px;
+}
+
+.question-wrapper p {
+  margin-bottom: 30px;
+  line-height: 27px;
+}
+
+.form-wrapper {
+  text-align: center;
+  padding-bottom: 70px;
+  background-color: #F8F7F2;
+
+}
+
+.form-con h1 {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #2B3F43;
+  height: 320px;
+  padding-top: 50px;
+}
+.footer-con {
+  width: 340px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-con section {
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.footer-con a {
+  flex: auto;
+  color: #5FB2A9;
+}
+#frogs {
+  flex: auto;
+  color: #6FC173;
+}
+
+.footer-con p {
+  font-size: 12px;
+  line-height: 18px;
+  Color:#919B9A;
+}
+
+
+}
