@@ -1,0 +1,102 @@
+@media (max-width: 768px) {
+
+
+
+
+
+
+}
+
+
+
+
+@media (max-width: 576px) {
+
+  .container:not(:root) {
+    width: 98%;
+  }
+
+  h1 {
+    font-size: 24px;
+    line-height: 41px;
+  }
+
+.top-wrapper {
+  height: 700px;
+}
+
+#frog {
+  display: block;
+  margin-bottom: 30px;
+}
+
+#apply {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 41px;
+  background-color: #6FC173 ;
+  padding: 7px 40px;
+  border-radius: 7px;
+}
+
+
+#next {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 41px;
+    margin-bottom: 45px;
+  }
+
+
+.course-wrapper {
+  height: auto;
+}
+
+.illust {
+  width: 20%;
+  height: 80%;
+  margin-right: 13px;
+}
+
+.ehplus-col {
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+
+.new-wrapper {
+  height: auto;
+}
+
+.new-wrapper {
+  padding-bottom: 30px;
+}
+
+.number {
+  margin-bottom: 170px;
+}
+
+
+.row-col {
+  margin-bottom: 0px;
+}
+
+.global-wrapper h1 {
+font-weight: 700;
+}
+
+.price-wrapper table {
+  width: 100%;
+}
+
+.ten {
+  margin-left: 0;
+}
+
+
+
+
+}
+
